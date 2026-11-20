@@ -1,0 +1,17 @@
+run,setting,test_platform,augmentation,model,accuracy,macro_f1,mcc
+run1,mixed split,all,standard,mobilenet_v3_large,0.9894,0.9894,0.9876
+run1,mixed split,all,standard,resnet50,0.9913,0.9912,0.9898
+run1,leave-one-platform-out,ArcGIS,standard,resnet50,0.7466,0.7159,0.7182
+run1,leave-one-platform-out,Bing,standard,resnet50,0.7693,0.7669,0.7446
+run1,leave-one-platform-out,Google,standard,resnet50,0.3447,0.301,0.2862
+run1,leave-one-platform-out,ArcGIS,strong,resnet50,0.7947,0.7771,0.7726
+run1,leave-one-platform-out,Bing,strong,resnet50,0.7676,0.7656,0.7423
+run1,leave-one-platform-out,Google,strong,resnet50,0.5756,0.5765,0.5427
+run2,mixed split,all,standard,mobilenet_v3_large,0.9869,0.9869,0.9847
+run2,mixed split,all,standard,resnet50,0.9925,0.9925,0.9913
+run2,leave-one-platform-out,ArcGIS,standard,resnet50,0.7447,0.7161,0.7158
+run2,leave-one-platform-out,Bing,standard,resnet50,0.848,0.8488,0.8262
+run2,leave-one-platform-out,Google,standard,resnet50,0.347,0.2872,0.2756
+run2,leave-one-platform-out,ArcGIS,strong,resnet50,0.804,0.781,0.7825
+run2,leave-one-platform-out,Bing,strong,resnet50,0.8276,0.8274,0.8071
+run2,leave-one-platform-out,Google,strong,resnet50,0.4772,0.4976,0.4603
